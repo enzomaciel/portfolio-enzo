@@ -35,6 +35,7 @@ body{
     color: var(--cor-terciaria);
     text-decoration: none;
 }
+/* Main */
 .apresentacao{
     padding: 5% 15%;
     display: flex;
