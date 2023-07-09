@@ -120,3 +120,20 @@ body{
     }
 
 }
+@media(max-width:800px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .apresentacao{
+        padding: 2%;
+        flex-direction: column-reverse;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
