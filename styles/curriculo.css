@@ -53,7 +53,7 @@ body{
 }
 .apresentacao__conteudo__titulo{
     font-family: var(--fonte-secundaria);
-    width: auto%;
+    width: auto;
     font-size: 1.2rem;
 }
 .apresentacao__conteudo__data{
