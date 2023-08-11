@@ -5,42 +5,164 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    
+    <title>Enzo Maciel</title>
 </head>
 <body>
     <header class="cabecalho">
         <nav>
             <ul class="cabecalho__menu">
-                <li class="cabecalho__menu_item"><a class="cabecalho__menu__link" href="index.html">Sobre mim</a></li>
-                <li class="cabecalho__menu_item"><a class="cabecalho__menu__link" href="projetos.html">Projetos</a></li>
-                <li class="cabecalho__menu_item"><a class="cabecalho__menu__link" href="curriculo.html">Currículo</a></li>
+                <li class="cabecalho__menu_item"><a class="cabecalho__menu__link" href="#apresentacao">Sobre mim</a></li>
+                <li class="cabecalho__menu_item"><a class="cabecalho__menu__link" href="#projetos">Projetos</a></li>
+                <li class="cabecalho__menu_item"><a class="cabecalho__menu__link" href="#curriculo">Formação</a></li>
             </ul>    
         </nav>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Olá! Sou <strong class="titulo-destaque">Enzo Maciel</strong></h1>
-            <p class="apresentacao__conteudo__texto">Um estudante dedicado de Ciência da Computação apaixonado por programação. Com determinação e curiosidade, tenho buscado aprimorar minhas habilidades técnicas, explorando os fundamentos da computação e desenvolvimento de software. Neste portfólio, gostaria de compartilhar um pouco da minha jornada até agora e destacar alguns dos projetos que tenho realizado. </p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-            <a class="apresentacao__links__navegacao" href="https://github.com/enzomaciel">
-                <img src="imagem/icones/github.png" alt="icone do github">
-                GitHub
-            </a>
-            <a class="apresentacao__links__navegacao" href="https://github.com/enzomaciel">
-                <img src="imagem/icones/linkedin.png" alt="icone do github">
-                Linkedin
-            </a>
+    <main class="conteudo">
+        <section class="apresentacao" id="apresentacao">
+            <div class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo">Olá! Sou <strong class="titulo-destaque">Enzo Maciel</strong></h1>
+                <p class="apresentacao__conteudo__texto">Um estudante dedicado de Ciência da Computação apaixonado por programação. Com determinação e curiosidade, tenho buscado aprimorar minhas habilidades técnicas, explorando os fundamentos da computação e desenvolvimento de software. Neste portfólio, gostaria de compartilhar um pouco da minha jornada até agora e destacar alguns dos projetos que tenho realizado. </p>
+                <div class="apresentacao__links">
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/enzomaciel">
+                    <img src="imagem/icones/github.png" alt="icone do github">
+                    GitHub
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/enzomaciel">
+                    <img src="imagem/icones/linkedin.png" alt="icone do github">
+                    Linkedin
+                </a>
+                </div>
+            </div>
+        <img class="apresentacao__imagem" src="imagem/FotoEnzoSorrindo3.png" alt="Foto do Enzo Sorrindo">
+        </section>
+        <section class="projetos" id="projetos">
+            <h2 class="projetos__titulo">Projetos</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="projeto__conteudo">
+                                <h2 class="projeto__conteudo__subtitulo">Loja de Tênis</h2>
+                                <p class="projeto__conteudo__texto">O projeto de conclusão do curso abrangeu a aplicação prática dos conhecimentos em HTML, CSS e JavaScript, resultando em uma aplicação interativa e esteticamente agradável. Representou um marco significativo em minha jornada como desenvolvedor web, destacando meu comprometimento com soluções de qualidade e incitando meu interesse em explorar tecnologias futuras. Com uma base sólida, estou confiante para criar aplicações web inovadoras e estou motivado a enfrentar novos desafios e colaborar em projetos empolgantes.</p>
+                                <label class="projeto__link">GitHub: <a class="projeto__link" href="https://github.com/enzomaciel/Projeto-html-css-js-LojadeTenis">https://github.com/enzomaciel/Projeto-html-css-js-LojadeTenis</a></label>
+                            </div>
+                           <div class="projeto__imagem">
+                                <img class="projeto__imagem__url" src="./imagem/Projeto Loja de Tenis.png" alt="Foto do projeto Loja de Tênis">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="projeto__conteudo">
+                                <h2 class="projeto__conteudo__subtitulo">Sistema de Faculdade</h2>
+                                <p class="projeto__conteudo__texto">O projeto desenvolvido para a conclusão do curso de Java na StepComputer foi uma experiência enriquecedora que me permitiu aplicar de forma prática os conceitos e técnicas aprendidos. Através da manipulação de arquivos em texto, estilização de interfaces com JFrame e tratamento de dados nas entradas, pude aprimorar minhas habilidades técnicas e de resolução de problemas.</p>
+                                <label class="projeto__link">GitHub: <a class="projeto__link" href="https://github.com/enzomaciel/Sistema-Faculdade-Java">https://github.com/enzomaciel/Sistema-Faculdade-Java</a></label>
+                            </div>
+                           <div class="projeto__imagem">
+                                <img class="projeto__imagem__url" src="./imagem/ProjetoSistemaDeFaculdade.png" alt="Foto do projeto sistema de faculdade">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="projeto__conteudo">
+                                <h2 class="projeto__conteudo__subtitulo">Jogo de Xadrez</h2>
+                                <p class="projeto__conteudo__texto">Este projeto tem como objetivo a criação de um jogo de xadrez em Java, oferecendo todas as funcionalidades essenciais para uma experiência completa. O jogo foi desenvolvido no contexto de hobby. Possui recursos que permitem jogadas válidas, controle de turnos, regras de movimentação das peças e interface gráfica intuitiva. Você pode conferir o funcionamento detalhado do jogo no link abaixo, que direciona para o repositório correspondente no GitHub:</p>
+                                <label class="projeto__link">GitHub: <a class="projeto__link" href="https://github.com/enzomaciel/chess-system-java">https://github.com/enzomaciel/chess-system-java</a></label>
+                            </div>
+                           <div class="projeto__imagem">
+                                <img class="projeto__imagem__url" src="./imagem/ProjetoXadrez.png" alt="Foto do projeto jogo de xadrez">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="projeto__conteudo">
+                                <h2 class="projeto__conteudo__subtitulo">Sistema de Pedidos</h2>
+                                <p class="projeto__conteudo__texto">Este projeto final de um curso de Python consiste em um sistema de cadastro de pedidos simples. Foi desenvolvido utilizando o banco de dados SQLite e a biblioteca Tkinter para a criação de uma interface gráfica amigável. O sistema permite adicionar, alterar e remover pedidos, com tratamento adequado de dados para garantir a integridade das informações. É um exemplo prático do uso do Python para desenvolver aplicações eficientes e funcionais, atendendo aos requisitos estabelecidos no projeto da aula.</p>
+                                <label class="projeto__link">GitHub: <a class="projeto__link" href="https://github.com/enzomaciel/SistemaDePedidos">https://github.com/enzomaciel/SistemaDePedidos</a></label>
+                            </div>
+                           <div class="projeto__imagem">
+                                <img class="projeto__imagem__url" src="./imagem/ProjetoPythonGeve.png" alt="Foto do projeto de sistema de pedidos em python">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <h2 class="projeto__conteudo__subtitulo">Em desenvolvimento</h2>
+                        </div>
+                    </div>
+                    <!-- Adicione mais cartões conforme necessário -->
+                </div>
+                <!-- Adicione a navegação do Swiper -->
+                <div class="swiper-pagination"></div>
             </div>
         </section>
-        <img class="apresentacao__imagem" src="imagem/FotoEnzoSorrindo3.png" alt="Foto do Enzo Sorrindo">
-        <section >
-
+        <section class="curriculo" id="curriculo">
+            <h2 class="curriculo__titulo">Formação</h2>
+            <div class="curriculo__conteudo">
+                <div class="ensino">
+                    <p class="data">2020 - 2024</p>
+                    <h3 class="ensino__curso">Ciência da Computação</h3>
+                    <h4 class="ensino__nome">Faculdade Estácio de Sá</h4>
+                </div>
+                <div class="ensino">
+                    <p class="data">Em andamento</p>
+                    <h3 class="ensino__curso">JavaScript</h3>
+                    <h4 class="ensino__nome">OneBitCode</h4>
+                </div>
+                <div class="ensino">
+                    <p class="data">Finalizado</p>
+                    <h3 class="ensino__curso">Formação em Cybersecurity Essencials</h3>
+                    <h4 class="ensino__nome">Cisco</h4>
+                </div>
+                <div class="ensino">
+                    <p class="data">Finalizado</p>
+                    <h3 class="ensino__curso">Formação em C# e Orientação a Objetos</h3>
+                    <h4 class="ensino__nome">Alura</h4>
+                </div>
+                <div class="ensino">
+                    <p class="data">Finalizado</p>
+                    <h3 class="ensino__curso">Formação em Iniciante em programação</h3>
+                    <h4 class="ensino__nome">Alura</h4>
+                </div>
+                <div class="ensino">
+                    <p class="data">Finalizado</p>
+                    <h3 class="ensino__curso">HTML5</h3>
+                    <h4 class="ensino__nome">OneBitCode</h4>
+                </div>
+                <div class="ensino">
+                    <p class="data">Finalizado</p>
+                    <h3 class="ensino__curso">CSS3</h3>
+                    <h4 class="ensino__nome">OneBitCode</h4>
+                </div>
+                <div class="ensino">
+                    <p class="data">Finalizado</p>
+                    <h3 class="ensino__curso">Start Programação</h3>
+                    <h4 class="ensino__nome">OneBitCode</h4>
+                </div>
+                
+            </div>
         </section>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Enzo Maciel.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'cards',
+            cardsEffect: {
+               perSlideOffset:15,
+               perSlideRotate:2,
+               rotate: true,
+               slideShadows: true,
+            },
+    });
+    </script>
 </body>
 </html>
 
