@@ -31,11 +31,15 @@ body{
     list-style:none;
 }
 .cabecalho__menu__link{
+    transition: 100ms;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     font-size: 1.5rem;
     color: var(--cor-terciaria);
     text-decoration: none;
+}
+.cabecalho__menu__link:hover{
+    color:#12acce;
 }
 /* Main */
 .conteudo{
@@ -185,7 +189,7 @@ body{
     transition:100ms;
     background-color: var(--cor-hover);
     width: 60%;
-    height: 50px;
+    height: 60px;
     color: var(--cor-secundaria);
     padding: 2%;
     border-radius: 5px;
@@ -209,6 +213,9 @@ body{
 .ensino__nome{
     font-size: 1em;
     color: var(--cor-terciaria);
+}
+.ensino__experiencia{
+    height: auto;
 }
 
 
