@@ -70,7 +70,7 @@ body{
     color: var(--cor-terciaria);
 }
 .apresentacao__conteudo__texto{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: var(--fonte-secundaria);
     text-align:left;
 }
@@ -223,17 +223,70 @@ body{
 
 @media (max-width:1200px){
     .cabecalho{
-        padding: 10%;
+        padding-left: 2%;
     }
     .cabecalho__menu{
         justify-content: center;
+    }
+    .conteudo{
+        padding: 0.5%;
     }
     .apresentacao{
         padding: 5%;
         flex-direction: column-reverse;
     }
     .apresentacao__conteudo{
+        width: 100%;
+    }
+    .apresentacao__links__navegacao{
+        width: 60%;
+    }
+    .projetos{
+        width: 90%;
+    }
+    .card{
+        flex-direction: column;
         width: auto;
+        
+    }
+    .projeto__conteudo{
+        width: 100%;
+    }
+    .projeto__conteudo__subtitulo{
+        width: ;
+    }
+    .projeto__conteudo__texto{
+        padding: 0.5oem;
+        font-size: 1em;
+        color: var(--cor-hover);
+    }
+    .projeto__link{
+        font-size: 0.8em;
+    }
+    .projeto__imagem{
+        border-radius: 15px;
+        margin-top: 1em;
+        padding: 0.5em;
+        width: auto;
+    }
+    .curriculo{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .curriculo__titulo{
+        width: 100%;
+        text-align: left;
+    }
+    .curriculo__conteudo{
+        align-items: center;
+    }
+    .ensino{
+        height: auto;
+    }
+    .ensino__experiencia{
+        width: 100%;
     }
 
 }
